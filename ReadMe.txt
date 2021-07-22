@@ -93,3 +93,6 @@ $python api.py
 
 Step 2: In Jupyter Notebook
 Execute Diagnosis of Heart Disease - 03 API-checkpoint.ipynb.
+
+5. github repository
+https://deewu123@github.com/deewu123/project
