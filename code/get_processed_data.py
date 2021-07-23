@@ -70,8 +70,6 @@ def write_data(df):
     df.loc[df.diagnosed !=-888].to_csv(write_train_path)
     
     #test data
-    #columns = [column for column in df.columns if column !='diagnosed']
-    #df.loc[df.diagnosed == -888, columns].to_csv(write_test_path)
     df.loc[df.diagnosed == -888].to_csv(write_test_path)
 
 if __name__ == '__main__':
